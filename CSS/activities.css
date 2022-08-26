@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "fantasynew";
+    src: url(../images/Spring\ in\ May.ttf);
+  }
+  
+  body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-image: url(../images/wall3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  header {
+    position: sticky;
+    top: -90px;
+  }
+  
+  header h1 {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: fantasynew;
+    letter-spacing: 3px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+  }
+  h3{
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: fantasynew;
+    letter-spacing: 3px;
+  }
+  h4{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 900px;
+    bottom: 430px;
+
+  }
+  h5{
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: fantasynew;
+    letter-spacing: 3px; 
+  }
+
+  h6{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  
+
+.pos1{
+  position: relative;
+  left: 130px;
+}
+.pos3{
+  position: relative;
+  bottom: 200px;
+}
+.pos4{
+  position: relative;
+  left: 120px;
+  bottom: 150px;
+
+}
+.pos5{
+  position: relative;
+  left: 900px;
+  bottom: 550px;
+} 
+.pos6{
+  text-align: center;
+    padding: 1.5rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: fantasynew;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 380px;
+}
+.pos7{
+  position: relative;
+  right: 254px;
+  top: 60px;
+}
+.pos8{
+  position: relative;
+  top: 90px;
+  text-align: left;
+}
+  
+.pos9{
+  position: relative;
+  top: 660px;
+
+}
+
+  header .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 1rem;
+  }
+  
+  nav {
+    background-color: transparent;
+    padding: .5rem 1.5rem;
+    letter-spacing: 1.5px;
+  }
+  
+  ul {
+    display: inline-flex;
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 0 0 0 1.8rem;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+  
+  }
+  
+  ul li a:hover {
+    color: #ff7200;
+    cursor: pointer;
+  }
+  
+  a {
+    padding: .1rem .2rem;
+  }
+  
+  a.active {
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+  
+  .HERO {
+    height: 60vh;
+    background-image: url(../images/act2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+  }
+  
+  .position1{
+    position: relative;
+    left: 210px;
+    bottom: 200px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+  .content .cn{
+    width: 220px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    position: relative;
+    bottom: 500px;
+    
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+  align-content: center;
+}
+
+.cn:hover{
+  background-color: #fff;
+}
+
+.content span{
+  color: #ff7200;
+  font-size: 65px
+}
+
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+  color: #ff7200;
+}
+
+  
+
+  footer {
+    background-color: #000000;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+
+  }
+  
+  footer p {
+    line-height: 50px;
+  }
+  

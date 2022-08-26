@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "fantasynew";
+    src: url(../images/Spring\ in\ May.ttf);
+  }
+  
+  body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-image: url(../images/wall3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  header {
+    position: sticky;
+    top: -90px;
+  }
+  
+  header h1 {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: fantasynew;
+    letter-spacing: 3px;
+  }
+  
+  header .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 1rem;
+  }
+  
+  nav {
+    background-color: transparent;
+    padding: .5rem 1.5rem;
+    letter-spacing: 1.5px;
+  }
+  
+  ul {
+    display: inline-flex;
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 0 0 0 1.8rem;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+  
+  }
+  
+  ul li a:hover {
+    color: #ff7200;
+    cursor: pointer;
+  }
+  
+  a {
+    padding: .1rem .2rem;
+  }
+  
+  a.active {
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+  
+  .HERO {
+    height: 60vh;
+    background-image: url(../images/sov.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: fantasynew;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 720px;
+  }
+
+  h4 {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: fantasynew;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 680px;
+  }
+  
+  
+.mobidetail{
+    visibility: hidden;
+    display: none;
+}
+#menu{
+    visibility: hidden;
+}
+.project-text{
+    border-radius: 15px;
+}
+
+.project-text:hover {
+    transform: scale(1.1);
+}
+
+
+#wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: relative;
+    bottom: 680px;
+}
+
+#price{
+    font-size: 22px;
+}
+
+#img{
+    border-radius: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  position: relative;
+  bottom: 720px;
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+
+.content .cn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+  position: relative;
+  bottom: 2970px;
+  
+}
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+  align-content: center;
+}
+
+.cn:hover{
+  background-color: #fff;
+}
+
+.content span{
+  color: #ff7200;
+  font-size: 65px
+}
+
+footer {
+    background-color: #000000;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+
+  }
+  
+  footer p {
+    line-height: 50px;
+  }
+  

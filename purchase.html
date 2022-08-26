@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booking</title>
+        <link rel="stylesheet" href="CSS/purchase.css">
+    </head>
+    <div class="form-text">
+        <h1><span><img src="images/art-1.png" alt=""></span>Book Now <span><img src="images/art-1.png" alt=""></span></h1>
+        <p> --Instructions-- <br> Here You Can Buy Tickets By Selecting Your Prefered Activity, Choice Of Ticket And The Duration.<br> In Order To Select Multiple Tickets Click "ADD" || *NOTE* - Childern Under The Age Of 3, Entrance Is Free.</p>
+    <div>
+        <body>
+            </details>
+            <h2></h2><br><br><br><br>
+            <section id="wrapper">
+                <div id="hndiv3">
+                    <form action="get" id="form">
+                        <label for="activity">Activity:</label>
+                        <select name="acdrop" id="acdrop" required>
+                            <option value="Water Rafting">Water Rafting</option>
+                            <option value="Wildlife Safari">Safari</option>
+                            <option value="Sigiriya Hiking">Hiking</option>
+                        </select><br><br>
+                        
+                        <label for="choice">Choice Of Ticket:</label>
+                        <select id="ticket" required>
+                            <option value="Local-Child">Local Pass - Child</option>
+                            <option value="Foregin-Child">Foreigner Pass - Child</option>
+                            <option value="Local-Adult">Local Passs - Adult</option>
+                            <option value="Foregin-Adult">Foreigner Pass - Adult</option>
+                            <option value="Annual-Foreign">Annual Pass - Foreign</option>
+                            <option value="Annual-Local">Annual Pass - Local </option>
+                        </select><br><br>
+                        <label for="time">Duration:</label>
+                        <select name="duration" id="time" required>
+                            <option value="3 hours">3 Hrs</option>
+                            <option value="12 hours">1&frasl;2 day</option>
+                            <option value="24 hours">1 Day</option>
+                            <option value="48 hours">2 Days</option>
+                        </select><br><br>
+                        
+                        <label for="extrats">Extra: </label>
+                        <label for="food">Food Tokens </label>
+                        <input type="checkbox" id="food_token"><br><br><br>
+                        <button type="submit" id="submit"><span class="material-symbols-outlined">
+                            Add
+                            </span>
+                        </button>
+                        <button id="fav_add"><span class="material-symbols-outlined">
+                            Fav
+                            </span>
+                        </button>
+                        <button id="show_cart"><span class="material-symbols-outlined">
+                            Cart
+                            </span>
+                        </button>
+                    </form>
+                </div>
+                <div class="cart" id="cart">
+                    <div class="image"><img src="images/shopping_cart.svg" alt=""></div>
+                    <h1>Cart</h1>
+                    <div id="no_cart">
+                        <p id="nocarttext"><center>No items in Cart</center></p>
+                    </div>
+                    <table id="out">
+                    </table>
+                    <table id="tot_table">
+                        <th><hr><b><i>Total</i></b></th>
+                        <th><hr><i id="total">Rs.0/=</i></th>
+                    </table>
+                    <button id="close"><span class="material-symbols-outlined">
+                        Close
+                        </span>
+                    </button>
+                    <button id="remove"><span class="material-symbols-outlined">
+                        Remove
+                        </span>
+                    </button>
+                    <button id="checkout"><span class="material-symbols-outlined">
+                        Checkout
+                        </span>
+                    </button>
+                </div>
+            </section>
+        </body>
+    </div>
+    <script src="scripts/index.js"></script>
+</html>
